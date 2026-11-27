@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:17
+        image: postgres:19
         env:
           POSTGRES_PASSWORD: saas
           POSTGRES_DB: saas_test
